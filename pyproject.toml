@@ -1,0 +1,20 @@
+[project]
+name = "baidu_image_fetcher"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "yuzhi535", email = "zhouyuxi.abc@gmail.com"},
+]
+dependencies = [
+    "requests>=2.32.3",
+    "bs4>=0.0.2",
+    "tqdm>=4.66.5",
+    "selenium>=4.23.1",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
